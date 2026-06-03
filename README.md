@@ -2,7 +2,7 @@
 
 This repository describes our implementation of nnU-Net with NVFLARE for the study:
 
-**“Overcoming data scarcity through multi-center federated learning for organs-at-risk segmentation in pediatric upper abdominal radiotherapy.”**
+**“Robust organ-at-risk segmentation in pediatric upper abdominal radiotherapy via multicenter federated learning”**
 
 Due to network restrictions and hospital firewall policies, direct communication between all participating sites was not possible. We modified the standard NVFLARE workflow by using **SURFdrive**, a cloud storage service, as an intermediate layer for exchanging model weights.
 
@@ -145,7 +145,7 @@ If you use this repository, please cite our preprint:
 
 ```bibtex
 @misc{ding2026overcoming,
-  title         = {Overcoming Data Scarcity Through Multi-Center Federated Learning for Organs-at-Risk Segmentation in Pediatric Upper Abdominal Radiotherapy},
+  title         = {Robust organ-at-risk segmentation in pediatric upper abdominal radiotherapy via multicenter federated learning},
   author        = {Ding, Mianyong and Knoll, Maximilian and Harrabi, Semi and van Grotel, Martine and Littooij, Annemieke S. and van Noesel, Max and Schenk, Jens-Peter and van den Heuvel-Eibrink, Marry M. and Janssens, Geert O. and Maspero, Matteo},
   year          = {2026},
   eprint        = {to be added},
